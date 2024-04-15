@@ -1,25 +1,27 @@
 # Drifting Upstream
 
+This project explores a regression problem for the hypothetical record label 'Regression Records', in which we seek to predict a song's popularity based on its music features. We examined 2 datasets (as indicated by 'Phase 1' and 'Phase 2') in which song popularity is conveyed respectively as either the target variable of total Spotify streams, or a popularity score (1-100). Music features in Phase 1 include tempo, danceability, valence, energy, acousticness, instrumentalness, liveness, speechiness, and mode. Music features in Phase 2 are the same, minus mode, plus duration and loudness. Phase 1's best model was a Random Forest Regressor with a mean absolute error score on the test set of ~268 million streams. Phase 2's best model was an Extra Trees Regressor with a mean absolute error score on the test set of ~15.30. Details on the process and further implications are indicated in the following files.
+
 ## Data
 
-Phase 1
+**Phase 1**
 - spotify_2023.csv (original dataframe of 953 rows and 24 columns)
 - spotify_2023_cleaned.csv (phase 1a modeling dataframe of 945 rows and 36 columns)
 - spotify_2023_streams_and_features.csv (phase 1b modeling dataframe of 945 rows and 10 columns)
 - spotify_additional_data.csv (experimental phase 1 data wrangling additional dataframe of 20,594 rows and 24 columns)
 
-Phase 2
+**Phase 2**
 - spotify_30k.csv (second dataframe of 32,833 rows and 23 columns)
 - spotify_30k_cleaned.csv (phase 2 modeling dataframe of 32,833 rows and 54 columns)
 
 ## Notebooks
 
-Phase 1
+**Phase 1**
 - data_wrangling_1.ipynb (phase 1 data wrangling)
 - eda_1.ipynb (phase 1 exploratory data analysis)
 - preprocess_and_train_1.ipynb (phase 1 preprocessing, training, and modeling)
 
-Phase 2
+**Phase 2**
 - tsa_2.ipynb (phase 2 time series analysis)
 - dw_and_eda_2.ipynb (phase 2 data wrangling and exploratory data analysis)
 - modeling_2.ipynb (phase 2 preprocessing, training, and modeling)
