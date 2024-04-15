@@ -1,6 +1,6 @@
 # Drifting Upstream
 
-**Data**
+## Data
 
 Phase 1
 - spotify_2023.csv (original dataframe of 953 rows and 24 columns)
@@ -12,14 +12,7 @@ Phase 2
 - spotify_30k.csv (second dataframe of 32,833 rows and 23 columns)
 - spotify_30k_cleaned.csv (phase 2 modeling dataframe of 32,833 rows and 54 columns)
 
-**Notebooks**
-
-  **Hyperparameter Tuning**
-  - hp_et.ipynb (Extra Trees Regressor hyperparameter tuning and feature scaling)
-  - hp_gb.ipynb (Gradient Boosting Regressor hyperparameter tuning and feature scaling)
-  - hp_hgb.ipynb (Hist Gradient Boosting Regressor hyperparameter tuning and feature scaling)
-  - hp_rf.ipynb (Random Forest Regressor hyperparameter tuning and feature scaling)
-  - hp_xgb.ipynb (XGBoost Regressor hyperparameter tuning and feature scaling)
+## Notebooks
 
 Phase 1
 - data_wrangling_1.ipynb (phase 1 data wrangling)
@@ -31,7 +24,14 @@ Phase 2
 - dw_and_eda_2.ipynb (phase 2 data wrangling and exploratory data analysis)
 - modeling_2.ipynb (phase 2 preprocessing, training, and modeling)
 
-**Reports**
+### Hyperparameter Tuning
+- hp_et.ipynb (Extra Trees Regressor hyperparameter tuning and feature scaling)
+- hp_gb.ipynb (Gradient Boosting Regressor hyperparameter tuning and feature scaling)
+- hp_hgb.ipynb (Hist Gradient Boosting Regressor hyperparameter tuning and feature scaling)
+- hp_rf.ipynb (Random Forest Regressor hyperparameter tuning and feature scaling)
+- hp_xgb.ipynb (XGBoost Regressor hyperparameter tuning and feature scaling)
+
+## Reports
 
 - Best_Model_Metrics.pdf (feature importance, hyperparameters, and mean absolute error scores for phase 2 best model: Extra Trees Regressor)
 - Project_Presentation.pdf (PDF of 20-slide PowerPoint presentation of project summary and key findings)
